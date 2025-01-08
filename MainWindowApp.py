@@ -1230,10 +1230,6 @@ class MainWindow(QtWidgets.QMainWindow):
                 self.set_icon("Icons/play-svgrepo-com.svg")
 
                 ######----->Yasmine  Get current view range for X and Y axes
-                # self.graph2_x_range = self.graph2.viewRange()[0]
-                # self.graph2_y_range = self.graph2.viewRange()[1]
-                # print(f"X-axis view range for graph2: Start = {self.graph2_x_range[0]}, End = {self.graph2_x_range[1]}")
-                # print(f"Y-axis view range for graph2: Start = {self.graph2_y_range[0]}, End = {self.graph2_y_range[1]}")
 
                 last_data = self.get_last_data_point("graph2")[0]
                 self.graph2.setLimits(xMin=0, xMax=last_data)
