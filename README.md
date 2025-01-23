@@ -17,10 +17,10 @@ A Python-based application for real-time visualization and analysis of signal da
 - Non-rectangular plotting option
 - Report generation with snapshots
 - Channel gluing functionality
-
+ 
 ## Demo Video
 
-https://github.com/yourusername/signal-viewer/blob/main/Data/task1.mp4
+https://github.com/yasmine-msg79/Signal-Viewer/blob/main/Data/Task1.mp4
 
 ## Dependencies
 
